@@ -3,7 +3,7 @@ import { takeLatest } from 'redux-saga/effects';
 import type { Effect } from 'redux-saga/effects';
 
 type ExampleAction = {
-    type: string;
+    type: 'AN_ACTION';
 }
 
 function* worker(action: ExampleAction) {
